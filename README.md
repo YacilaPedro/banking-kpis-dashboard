@@ -1,64 +1,78 @@
-📊 Dashboard de KPIs Financieros - Sector Bancario
-🌟 Descripción
-Dashboard interactivo desarrollado en Power BI que consolida métricas estratégicas del sector financiero, permitiendo el monitoreo de desempeño operativo, riesgo crediticio y experiencia del cliente. Basado en el dataset BankVault de Kaggle, ofrece visualizaciones dinámicas para la toma de decisiones basada en datos.
+# 📊 Dashboard de KPIs Financieros - Sector Bancario
 
-🔍 Fuente de Datos
-🔗 BankVault: Comprehensive Insights Database
-Dataset que incluye:
+## 🌟 Descripción
 
-Transacciones financieras
+Dashboard interactivo desarrollado en **Power BI**, enfocado en la visualización de KPIs clave del sector financiero. Permite el monitoreo del desempeño operativo, riesgo crediticio y experiencia del cliente. Basado en el dataset **BankVault** de Kaggle, ofrece visualizaciones dinámicas que facilitan la toma de decisiones estratégicas basadas en datos.
 
-Estados de cuentas
+---
 
-Solicitudes de crédito
+## 🔍 Fuente de Datos
 
-Feedback de clientes
+**📂 Dataset:** [BankVault: Comprehensive Insights Database](https://www.kaggle.com/)  
+Incluye información detallada sobre:
 
-🧹 Procesamiento de Datos
-ETL con Python
-Limpieza de valores nulos y duplicados
+- Transacciones financieras  
+- Estados de cuenta  
+- Solicitudes de crédito  
+- Feedback y satisfacción del cliente  
 
-Estandarización de formatos (fechas, montos, categorías)
+---
 
-Feature engineering: creación de KPIs calculados
+## 🧹 Procesamiento de Datos
 
-Power BI
-Modelado de datos con relaciones optimizadas
+### 🔧 ETL en Python
+- Limpieza de valores nulos y duplicados  
+- Estandarización de formatos (fechas, montos, categorías)  
+- Feature engineering: creación de KPIs calculados  
 
-Medidas DAX para métricas complejas
+### 📊 Power BI
+- Modelado de datos con relaciones optimizadas  
+- Cálculo de medidas complejas con DAX  
+- Visualizaciones interactivas  
 
-📌 KPIs Principales
-Categoría	Indicadores Clave
-Gestión de Cuentas	Total de cuentas activas • Saldo promedio • Tasa de crecimiento
-Riesgo Crediticio	Tasa de aprobación de préstamos • Distribución por tipo/estado • Morosidad
-Transacciones	Volumen mensual • Promedio por cliente • Canales más utilizados
-Experiencia Cliente	Satisfacción (NPS) • Reclamos frecuentes • Uso de productos digitales
-🛠 Stack Tecnológico
-Limpieza y Transformación: Python (Pandas, NumPy)
+---
 
-Visualización: Power BI (DAX, Power Query)
+## 📌 KPIs Principales
 
-Control de Versiones: Git
+| Categoría            | Indicadores Clave                                                                 |
+|----------------------|------------------------------------------------------------------------------------|
+| **Gestión de Cuentas**   | Total de cuentas activas, Saldo promedio, Tasa de crecimiento                     |
+| **Riesgo Crediticio**    | Tasa de aprobación de préstamos, Distribución por tipo/estado, Tasa de morosidad |
+| **Transacciones**        | Volumen mensual, Promedio por cliente, Canales más utilizados                    |
+| **Experiencia del Cliente** | NPS (Net Promoter Score), Reclamos frecuentes, Uso de productos digitales         |
 
-🎯 Objetivo del Proyecto
-Brindar una visión 360° del negocio bancario mediante:
-✔ Identificación de tendencias operativas y financieras
-✔ Detección temprana de riesgos
-✔ Análisis de comportamiento del cliente
-✔ Soporte para estrategias comerciales y de retención
+---
 
-👨‍💻 Autor
-Pedro David Yacila
-LinkedIn
-Estuidante de Data Analitycs | Business Intelligence
+## 🛠 Stack Tecnológico
 
-📥 Cómo Utilizar
-Clonar repositorio
+- **Python**: Pandas, NumPy (Limpieza y transformación de datos)  
+- **Power BI**: DAX, Power Query (Modelado y visualización)  
+- **Git**: Control de versiones del proyecto  
 
-Ejecutar el script de Python para preprocesamiento
+---
 
-Abrir el archivo .pbix en Power BI Desktop
+## 🎯 Objetivo del Proyecto
 
-Explorar filtros interactivos y tooltips
+Brindar una **visión 360°** del negocio bancario mediante:
 
-¿Preguntas? ¡Contáctame via LinkedIn!
+✔ Identificación de tendencias operativas y financieras  
+✔ Detección temprana de riesgos  
+✔ Análisis del comportamiento del cliente  
+✔ Soporte para estrategias comerciales y de retención  
+
+---
+
+## 👨‍💻 Autor
+
+**Pedro David Yacila**  
+Estudiante de Data Analytics | Business Intelligence  
+[🔗 LinkedIn](https://www.linkedin.com/)  
+
+---
+
+## 📥 Cómo Utilizar
+
+1. Clona este repositorio:  
+   ```bash
+   git clone https://github.com/tuusuario/nombre-del-repo.git
+
